@@ -11,3 +11,5 @@ _Author:_ Seth Kellas\
 _Twitter:_ [Teaching TLs](https://twitter.com/teachingtls)\
 _Site:_ [Teaching Tech Leads](https://teachingtechleads.com)
 
+## Calendar Entries
+ * [Day 01](./01/README.md)
