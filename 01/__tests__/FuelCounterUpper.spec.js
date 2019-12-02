@@ -24,4 +24,10 @@ describe('Fuel Counter Upper', () => {
     it('will calculate true value for mass of 12', () => {
         expect(FuelUsageByMass.calculateTrueFuelUsageByMass(12)).toEqual(2);
     });
+    it('will calculate true value for mass of 1969', () => {
+        expect(FuelUsageByMass.calculateTrueFuelUsageByMass(1969)).toEqual(966);
+    });
+    it('will calculate true value for mass of 100756', () => {
+        expect(FuelUsageByMass.calculateTrueFuelUsageByMass(100756)).toEqual(50346);
+    });
 });
