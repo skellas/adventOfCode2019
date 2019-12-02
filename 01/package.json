@@ -2,9 +2,8 @@
   "name": "com.teachingtechleads",
   "version": "1.0.0",
   "description": "Advent of Code - Day 01",
-  "main": "index.js",
   "scripts": {
-    "build": "node index.js",
+    "part1": "node part1.js",
     "test": "jest",
     "testServer": "jest --watch"
   },
