@@ -4,6 +4,7 @@
   "description": "Advent of Code - Day 01",
   "main": "index.js",
   "scripts": {
+    "build": "node index.js",
     "test": "jest",
     "testServer": "jest --watch"
   },
