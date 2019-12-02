@@ -41,3 +41,10 @@ What is the sum of the fuel requirements for all of the modules on your spacecra
 npm run part2
 5115927
 ```
+
+## Lessons Learned
+Not having `jest` installed globally really threw a wrench into getting a simple scenario setup. Also, I really don't like working on my home windows machine anymore. Powershell just does not stand up to ZSH.
+
+Used bare minimum dependencies and libraries in this exercise. Using `require()` instead of `import {}` statements was definitely not something I've done in a bit. As we progress, I'm hoping to add in better testing and static types, as that's what I preach at work. 
+
+I feel like the methods could have been overloaded to accept `...mass`, so that the entire array could have been passed in and the looping wouldn't have had to occur externally. 
