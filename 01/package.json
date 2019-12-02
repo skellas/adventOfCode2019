@@ -4,7 +4,8 @@
   "description": "Advent of Code - Day 01",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "testServer": "jest --watch"
   },
   "author": "Seth Kellas",
   "license": "ISC",
