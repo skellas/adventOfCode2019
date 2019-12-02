@@ -1,3 +1,3 @@
 module.exports = function calculateFuelUsageByMass(mass) {
-    return Math.floor(mass / 3) - 2;
+    return mass > 2 ? Math.floor(mass / 3) - 2 : 0;
 };
