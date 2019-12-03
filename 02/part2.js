@@ -3,18 +3,16 @@ const fs = require('fs');
 const upperBound = 100;
 const lowerBound = 0;
 const targetValue = 19690720;
-let j = 0;
 let nounStep = 50;
 let verbStep = 50;
 let currentNounPosition = upperBound - nounStep;
 let currentVerbPosition = upperBound - verbStep;
-while (currentNounPosition >= 0 && currentNounPosition <= upperBound) {
-    let contents = fs.readFileSync('./res/input.txt', 'utf8');
-    let ingestedCodes = contents.split(",").map(val => parseInt(val));
+while (1 == 1) {
+    let ingestedCodes = toIntArray(fs.readFileSync('./res/input.txt', 'utf8'));
     ingestedCodes[1] = currentNounPosition;
     ingestedCodes[2] = currentVerbPosition;
     const updatedCodes = Intcode(ingestedCodes.toString());
-    let foundValue = parseInt(updatedCodes.split(",")[0]);
+    let foundValue = toIntArray(updatedCodes)[0];
     if (foundValue == targetValue) break;
     bubbleNounValues(foundValue);
     bubbleVerbValues(foundValue);
@@ -41,4 +39,7 @@ function bubbleVerbValues(foundValue) {
             currentVerbPosition += verbStep;
         }
     }
+}
+function toIntArray(string) {
+    return string.split(",").map(val => parseInt(val));
 }
