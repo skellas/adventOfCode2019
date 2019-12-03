@@ -1,0 +1,16 @@
+{
+  "name": "com.teachingtechleads",
+  "version": "1.0.0",
+  "description": "Advent of Code - Day 02",
+  "scripts": {
+    "part1": "node part1.js",
+    "part2": "node part2.js",
+    "test": "jest",
+    "testServer": "jest --watch"
+  },
+  "author": "Seth Kellas",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}

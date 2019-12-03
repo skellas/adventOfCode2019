@@ -13,3 +13,4 @@ _Site:_ [Teaching Tech Leads](https://teachingtechleads.com)
 
 ## Calendar Entries
  * [Day 01](./01/README.md)
+ * [Day 02](./02/README.md)
